@@ -1,0 +1,29 @@
+*{
+    font-family: monospace;
+    box-sizing: border-box;
+}
+.card{
+    border-radius: 1em;
+    padding: 2em;
+    margin-top: 1em;
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.card-body{
+    background-color: rgb(233, 233, 233);
+    padding: 1em;    
+}
+.card-title{
+    font-size: large;
+}
+
+.floatingDiv{
+    pointer-events: none; /*Ignora todos los eventos del mouse 🤙*/
+    display: none;
+    position: absolute;
+    border: 1px solid white;
+    transition: all .3s ease-in-out;
+}
